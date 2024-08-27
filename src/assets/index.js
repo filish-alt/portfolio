@@ -31,6 +31,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import leave from "./leave.png";
+import dan from "./dan.jpg";
+import kagnew from "./kagnew.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -66,6 +68,8 @@ export {
   tripguide,
   ecx,
   twof,
+  dan,
+  kagnew,
   go,
   net,
   angular,

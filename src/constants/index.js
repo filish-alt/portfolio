@@ -26,9 +26,11 @@ import {
     leave,
     ecx,
     twof,
+    dan,
     go,
     net,
     angular,
+    kagnew,
   } from "../assets";
   
   export const navLinks = [
@@ -115,6 +117,35 @@ import {
   
   const experiences = [
     {
+      title: "Full stack web development trainee",
+      company_name: "Kagnew Academy",
+      icon: kagnew,
+      iconBg: "#E6DEDD",
+      date: "Aug 2020 - Jun 2021",
+      points: [
+        "A trainning in full stack website deveopment a remote online trainning",
+        "Using Java and spring boot frame work for back end and Angular for front end and Mysql database",
+        "And other technologies like Swagger, Postman, heroku, github",
+        "collaborating withother teams.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Application developer Trainee",
+      company_name: "DAN Energy",
+      icon: dan,
+      iconBg: "#383E56",
+      date: "Dec 2022 - jun 2023",
+      points: [
+        "Pursuing comprehensive training as an application developer",
+        "hone skills and expertise in building modern software solutions",
+        "Achieved a MERN Stack certification from Udemy", 
+        "demonstrating proficiency in MongoDB, Express.js, React, and Node.js",
+        "Actively collaborating with fellow trainers", 
+        "fostering a collaborative learning environment and sharing knowledge to enhance collective expertise.",
+      ],
+    },
+    {
       title: "Full stack Developer",
       company_name: "ECX(Ethiopia Commodity Exchange)",
       icon: ecx,
@@ -141,6 +172,7 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+ 
     
   ];
   

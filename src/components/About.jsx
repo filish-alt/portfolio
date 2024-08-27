@@ -10,7 +10,7 @@ const ServiceCard =({index, title, icon}) =>{
   return(
     <Tilt classNmae="xs:w-[250px] w-full">{title}
        <motion.div variants={fadeIn("right","spring", 0.5 * index, 0.75)}
-       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+       className='w-full grey-gradient p-[1px] rounded-[20px] shadow-card'
        >
         <div options={{
           max: 45,
@@ -46,7 +46,7 @@ const About = () => {
     I am a versatile developer with a robust skill set spanning both web and mobile development. My expertise includes:
     <br />
     &nbsp;&nbsp;&nbsp;
-       Backend: Proficient in .NET and Golang, building scalable and secure server-side applications.
+       Backend: Proficient in .NET and Golang, Java Spring boot frame work building scalable and secure server-side applications.
        <br />
        &nbsp;&nbsp;&nbsp;
        Frontend: Skilled in Angular and React, crafting responsive and dynamic user interfaces.
@@ -54,8 +54,8 @@ const About = () => {
        &nbsp;&nbsp;&nbsp;
        Web Development: Experienced with PHP, delivering robust and efficient web solutions.
     </motion.p>
-
-    <div className='mt=20 flex flex-wrap gap-10'>
+    &nbsp;&nbsp;&nbsp;
+    <div className='mt=30 flex flex-wrap gap-10 ml=30'>
       {services.map((service, index) => (
         <ServiceCard key={service.title} index=
         {index} {...service} />
